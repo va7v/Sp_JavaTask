@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SP Java Task</string>
+    <string name="msg_3rd_start">Это третий или более запуск приложения</string>
+</resources>
