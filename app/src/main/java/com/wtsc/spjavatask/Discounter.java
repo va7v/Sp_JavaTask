@@ -19,7 +19,7 @@ public class Discounter {
         int[] result = new int[readLength];
         int counter = 0;
         for (int i = offset; i < offset + readLength; i++) {
-            result[counter++] = (price[i] * discount / 100);
+            result[counter++] = price[i] * discount / 100;
         }
         return result;
     }
