@@ -18,8 +18,10 @@ public class Discounter {
 
         int[] result = new int[readLength];
         int counter = 0;
-        for (int i = offset; i < offset + readLength; i++) {
-            result[counter++] = price[i] * discount / 100;
+        if (discount < 100) {
+            for (int i = offset; i < offset + readLength; i++) {
+                result[counter++] = price[i] * (100 - discount) / 100;
+            }
         }
         return result;
     }
