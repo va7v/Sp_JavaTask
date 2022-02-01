@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">SP Java Task</string>
     <string name="msg_3rd_start">Это третий запуск приложения</string>
-    <string name="test_result">Результат теста: </string>
+    <string name="test_result">Результат теста:</string>
 </resources>
